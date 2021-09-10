@@ -273,10 +273,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Update Channel', url='t.me/searchkannadamovies'),
-                    InlineKeyboardButton('Source Code', url='https://t.me/KANNADAMOVIES_17')
+                    InlineKeyboardButton('Source Code', url='https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17')
                 ]
                 ]
-            await query.message.edit(text=f"<b>Developer : <a href='https://github.com/subinps'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/KANNADAMOVIES_17'>Click here</a>\nUpdate Channel : <a href='https://t.me/searchkannadamovies'>movies</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=f"<b>Developer : <a href='https://github.com/subinps'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17'>Click here</a>\nUpdate Channel : <a href='https://t.me/searchkannadamovies'>movies</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
