@@ -66,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('JOIN MY CHANNEL', url='https://t.me/KANNADAMOVIES_17')
+                        InlineKeyboardButton('JOIN MY CHANNEL', url='https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -102,7 +102,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Bot Updates", url="https://t.me/KANNADAMOVIES_17")
+                        InlineKeyboardButton("Bot Updates", url="https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -194,7 +194,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/KANNADAMOVIES_17'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17'),
             InlineKeyboardButton('discussion', url='https://t.me/searchkannadamovies')
         ]
         ]
