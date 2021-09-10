@@ -82,7 +82,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('JOIN MY CHANNEL', url='https://t.me/KANNADAMOVIES_17')
+            InlineKeyboardButton('JOIN MY CHANNEL', url='https://t.me/BAGURUJOINAGUUKANNADAMOVIES_17')
         ],
         [
             InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
